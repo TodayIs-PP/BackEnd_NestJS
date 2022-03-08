@@ -15,4 +15,17 @@ describe('FoodsService', () => {
   it('should be defined', () => {
     expect(service).toBeDefined();
   });
+
+  it('should return an array of foods', async () => {
+    try {
+      await service.findAll();
+    } catch (e) {
+      expect(e).toBeInstanceOf(Error);
+      expect(e.message).toBe('Fail to load foods');
+    }
+  });
+
+  it('should return an array of foods', async () => {
+    expect(await service.findAll()).toBeInstanceOf(Array);
+  });
 });
