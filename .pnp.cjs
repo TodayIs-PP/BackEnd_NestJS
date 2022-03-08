@@ -54,6 +54,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["reflect-metadata", "npm:0.1.13"],\
             ["rimraf", "npm:3.0.2"],\
             ["rxjs", "npm:7.5.4"],\
+            ["source-map-support", "npm:0.5.21"],\
             ["supertest", "npm:6.2.2"],\
             ["ts-jest", "virtual:3036b186e9c8cc6596377674b039f23a4d24caf2405fd1796c945ee6405c52cc1ac2191770f978c28d9ba35910d31fa9d6ce54e9037ddd256580fdd200758810#npm:27.1.3"],\
             ["ts-loader", "virtual:3036b186e9c8cc6596377674b039f23a4d24caf2405fd1796c945ee6405c52cc1ac2191770f978c28d9ba35910d31fa9d6ce54e9037ddd256580fdd200758810#npm:9.2.7"],\
@@ -8845,6 +8846,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["reflect-metadata", "npm:0.1.13"],\
             ["rimraf", "npm:3.0.2"],\
             ["rxjs", "npm:7.5.4"],\
+            ["source-map-support", "npm:0.5.21"],\
             ["supertest", "npm:6.2.2"],\
             ["ts-jest", "virtual:3036b186e9c8cc6596377674b039f23a4d24caf2405fd1796c945ee6405c52cc1ac2191770f978c28d9ba35910d31fa9d6ce54e9037ddd256580fdd200758810#npm:27.1.3"],\
             ["ts-loader", "virtual:3036b186e9c8cc6596377674b039f23a4d24caf2405fd1796c945ee6405c52cc1ac2191770f978c28d9ba35910d31fa9d6ce54e9037ddd256580fdd200758810#npm:9.2.7"],\
